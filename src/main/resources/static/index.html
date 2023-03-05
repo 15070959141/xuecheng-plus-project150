@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>atguigu.欢迎您</h1>
+<form method="get">
+
+    <input type="submit" value="get请求">
+</form>
+<form method="post" action="/save">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="submit" value="测试requestBody请求">
+</form>
+<form method="post" action="/testconverter">
+    用户名： <input name="username" value="吴铖"><br>
+    密码： <input name="password" value="123321"><br>
+    宠物： <input name="pet" value="阿猫,3">
+    <input type="submit" value="测试testconverter请求">
+</form>
+</body>
+</html>
